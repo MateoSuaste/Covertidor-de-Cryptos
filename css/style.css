@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,500&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(204, 162, 101, 1);
+}
+
+.navbar img {
+    width: 21rem;
+    height: 21rem;
+    margin: auto 0;
+    padding: 2rem 1rem;
+}
+
+    @media (min-width: 320px) {
+        .navbar img{
+            width: 25rem;
+        }
+
+    }
+
+
+    .navbar ul {
+        padding: right 1rem;
+    }
+
+
+    .navbar li .btn{
+       width: 10rem;
+    }
+
+    .frase{
+        color: rgba(178,97,88,1) ;
+        font-weight: 700;
+    }
+
+    .navbar li {
+        list-style-type: none;
+        font-size: 2.2rem;
+        padding: .3rem 3rem;
+    }
+
+    .btn-outline-secondary{
+        border-style: none;
+        font-weight: 700;
+        color: #b71a37;
+        background-color: rgba(204, 162, 101, 1);
+    }
+
+    .btn-outline-secondary:hover{
+        border-style: none;
+        opacity: 1;
+        background-color: rgba(255,203,127,1);
+    }
+
+
+    h1{
+        font-weight: 700;
+        padding-top: 1.5rem;
+        text-align: center;
+        color: rgba(160,127,79,1);
+    }
+
+    h2{
+        color: rgba(111,93,67,1);
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        margin-top: 15rem;
+        justify-content: space-around;
+    }
+
+    .criptoMonedas{
+        width: 50%;
+        padding-bottom: 20rem;
+        padding-top: -10rem;
+    }
+
+    select{
+        font-size: 2rem;
+        width: 10rem;
+    }
+    input{
+        font-size: 2rem;
+    }
+
+    .container-btn{
+        height: 10rem;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .caja_cambio img{
+        width: 10rem;
+        height: auto;
+    }
+    
+    .btn_convertir{
+        font-size: 1.7rem;
+        font-weight: 700;
+        color:#b71a37 ;
+        margin-top: 1rem;
+        border-style: groove;
+        border-color:rgba(111,93,67,1) ;
+        border-width: 5px;
+        background-color:rgba(204, 162, 101, 1) ;
+    }
+
+
+   
